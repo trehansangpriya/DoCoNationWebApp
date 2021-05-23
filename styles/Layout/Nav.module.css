@@ -109,3 +109,9 @@
 		transform: translateX(0%);
 	}
 }
+@media screen and (min-width: 1680px) {
+	.nav {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+}

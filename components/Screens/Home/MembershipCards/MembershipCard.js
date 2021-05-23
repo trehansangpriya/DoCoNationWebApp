@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MembershipCard = () => {
+const MembershipCard = ({ icon, title }) => {
     return (
         <div>
 

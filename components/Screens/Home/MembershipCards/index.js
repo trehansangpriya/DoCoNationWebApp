@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MembershipCards = () => {
+const MembershipCards = ({ title, data }) => {
     return (
         <div>
 

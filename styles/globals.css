@@ -168,11 +168,13 @@ a.btn {
 	display: inline-block;
 }
 
-a.btn.btn-yellow {
-	background-color: var(--yellow);
-	color: var(--dark);
+a.btn.btn-sec {
+	background-color: var(--light);
+	color: var(--blue);
+	font-weight: 700;
+	border: 2px solid var(--blue);
 }
-a.btn.btn-blue {
+a.btn.btn-primary {
 	background-color: var(--blue);
 	color: var(--light);
 }
@@ -243,5 +245,12 @@ a.btn.btn-blue {
 @media screen and (max-width: 640px) {
 	.d-flex {
 		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 1680px) {
+	/* Global View */
+	.section {
+		padding: 30px 200px;
 	}
 }

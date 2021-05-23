@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({ label, type, link }) => {
     return (
-        <div>
-
-        </div>
+        <a href={link} className={`btn ` + type}>{label}</a>
     )
 }
 
