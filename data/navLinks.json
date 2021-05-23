@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Home",
+        "url": "/#",
+        "target": ""
+    },
+    {
+        "title": "About",
+        "url": "/#about",
+        "target": ""
+    },
+    {
+        "title": "Benefits",
+        "url": "/#benefits",
+        "target": ""
+    }
+]
