@@ -14,9 +14,6 @@ export default function Home() {
   return (
     <WebProvider>
       <Layout>
-
-       
-
         {/* Hero Section Starts */}
         <HeroSection
           content={heroSectionData.content}
@@ -28,12 +25,14 @@ export default function Home() {
         {/* About Section Starts */}
         <About id='about' />
         {/* About Section Ends */}
+        <Spacer h='100px' />
+        {/* Feature Section Starts */}
+        <FeatureCards title="Why Be A Part Of It?" data={featureCardData} />
+        {/* Feature Section Ends */}
         <Spacer h='50px' />
-           <FeatureCards title="Why Be A Part Of It?" data={featureCardData} />
         {/* Membership Section Starts */}
         <Membership data={membershipData} />
         {/* Membership Section Ends */}
-
       </Layout>
     </WebProvider>
   );
