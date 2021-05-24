@@ -1,0 +1,22 @@
+.memberContainer {
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Tablet CSS */
+@media screen and (max-width: 768px) {
+	.memberContainer {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 640px) {
+	.memberContainer {
+		width: 100%;
+		flex-direction: column;
+	}
+}

@@ -1,5 +1,5 @@
 /* Fonts from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
 /* Global Variables */
 :root {
@@ -18,7 +18,7 @@
 	--doco: #22006a;
 
 	/* Fonts */
-	--mon: 'Montserrat', sans-serif;
+	--mon: "Montserrat", sans-serif;
 }
 
 /* Global Styles */
@@ -123,15 +123,16 @@ a {
 }
 
 .bg-blue400 {
-	color: var(--blue-400);
+	background-color: var(--blue-400);
 }
 
 .bg-blue600 {
-	color: var(--blue-600);
+	background-color: var(--blue-600);
 }
 
-.bg-blue400 {
-	color: var(--blue-600);
+.bg-blue800 {
+	background-color: var(--blue-800);
+
 }
 
 .bg-yellow {
@@ -190,10 +191,11 @@ a.btn {
 	font-size: 18px;
 	font-weight: 600;
 	display: inline-block;
+	text-align: center;
 }
 
 a.btn.btn-sec {
-	background-color: var(--light);
+	background-color: transparent;
 	color: var(--blue);
 	font-weight: 700;
 	border: 2px solid var(--blue);
@@ -201,6 +203,8 @@ a.btn.btn-sec {
 
 a.btn.btn-primary {
 	background-color: var(--blue);
+	border: 2px solid var(--blue);
+
 	color: var(--light);
 }
 
@@ -249,7 +253,7 @@ a.btn.btn-primary {
 
 	/* Global Headings */
 	h1 {
-		font-size: 42px;
+		font-size: 32px;
 	}
 
 	h2 {
@@ -258,7 +262,7 @@ a.btn.btn-primary {
 
 	/* Global Content */
 	p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	/* Global Button */
@@ -283,6 +287,14 @@ a.btn.btn-primary {
 
 	.d-flex {
 		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+	/* Global Content */
+	p {
+		font-size: 18px;
 	}
 }
 
