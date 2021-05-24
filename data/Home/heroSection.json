@@ -1,0 +1,12 @@
+{
+    "title": {
+        "general": "A New Age ",
+        "highlight": "Student Community"
+    },
+    "content": "It is a compact solution for all student problems out there! A place where there’s no room for boredom.",
+    "img": {
+        "src": "/assets/images/home-hero-illus.png",
+        "alt": "DoCoNation"
+    },
+    "link": "#"
+}

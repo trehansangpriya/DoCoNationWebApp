@@ -23,6 +23,15 @@ const Nav = () => {
                         )
                     )
                 }
+                <a
+                    href="#"
+                    className="btn btn-primary"
+                    style={{
+                        marginLeft: '30px'
+                    }}
+                >
+                    Join Now
+                </a>
             </div>
 
             <div className={!navOpen ? navStyle.burger : navStyle.burger + " " + navStyle.toggle} onClick={e => (setNavOpen(!navOpen))}>

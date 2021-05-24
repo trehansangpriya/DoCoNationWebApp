@@ -140,9 +140,11 @@ a {
 
 /* Global Headings */
 h1 {
-  margin: 4px 0;
-  font-size: 68px;
-  font-weight: 800;
+
+	margin: 4px 0;
+	font-size: 68px;
+	font-weight: 800;
+
 }
 
 h2 {
@@ -243,8 +245,20 @@ a.btn.btn-primary {
 
 /* Screensize - Mobile */
 @media screen and (max-width: 640px) {
+
   .d-flex {
     flex-direction: column;
+  }
+
+	h1 {
+		font-size: 32px;
+	}
+	/* Global Content */
+	p {
+		font-size: 18px;
+	}
+	.d-flex {
+		flex-direction: column;
   }
 }
 
