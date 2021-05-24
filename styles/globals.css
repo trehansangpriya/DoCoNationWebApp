@@ -20,6 +20,7 @@
 	/* Fonts */
 	--mon: 'Montserrat', sans-serif;
 }
+
 /* Global Styles */
 * {
 	padding: 0;
@@ -49,10 +50,12 @@ a {
 	color: var(--light);
 	background-color: var(--blue);
 }
+
 *::-moz-selection {
 	color: var(--light);
 	background-color: var(--blue);
 }
+
 ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -74,66 +77,87 @@ a {
 .c-blue {
 	color: var(--blue);
 }
+
 .c-blue400 {
 	color: var(--blue-400);
 }
+
 .c-blue600 {
 	color: var(--blue-600);
 }
+
 .c-blue400 {
 	color: var(--blue-600);
 }
+
 .c-yellow {
 	color: var(--yellow);
 }
+
 .c-light {
 	color: var(--light);
 }
+
 .c-dark {
 	color: var(--dark);
 }
+
 .c-success {
 	color: var(--success);
 }
+
 .c-danger {
 	color: var(--danger);
 }
+
 .c-grey {
 	color: var(--grey);
 }
+
 .c-greyL {
 	color: var(--greyL);
 }
+
 .bg-blue {
 	background-color: var(--blue);
 }
+
 .bg-blue400 {
 	color: var(--blue-400);
 }
+
 .bg-blue600 {
 	color: var(--blue-600);
 }
+
 .bg-blue400 {
 	color: var(--blue-600);
 }
+
 .bg-yellow {
 	background-color: var(--yellow);
 }
+
 .bg-light {
 	background-color: var(--light);
 }
+
 .bg-dark {
 	background-color: var(--dark);
 }
+
 .bg-success {
 	background-color: var(--success);
 }
+
 .bg-danger {
 	background-color: var(--danger);
 }
+
 .bg-grey {
 	background-color: var(--grey);
 }
+
 .bg-greyL {
 	background-color: var(--greyL);
 }
@@ -141,7 +165,7 @@ a {
 /* Global Headings */
 h1 {
 	margin: 4px 0;
-	font-size: 85px;
+	font-size: 68px;
 	font-weight: 800;
 }
 
@@ -174,6 +198,7 @@ a.btn.btn-sec {
 	font-weight: 700;
 	border: 2px solid var(--blue);
 }
+
 a.btn.btn-primary {
 	background-color: var(--blue);
 	color: var(--light);
@@ -183,6 +208,7 @@ a.btn.btn-primary {
 .row {
 	width: 100%;
 }
+
 .col {
 	width: 50%;
 }
@@ -198,6 +224,7 @@ a.btn.btn-primary {
 .d-col-rev {
 	flex-direction: column-reverse;
 }
+
 .d-row-rev {
 	flex-direction: row-reverse;
 }
@@ -214,14 +241,17 @@ a.btn.btn-primary {
 
 /* Screensize - iPad */
 @media screen and (max-width: 768px) {
+
 	/* Global View */
 	.section {
 		padding: 30px;
 	}
+
 	/* Global Headings */
 	h1 {
 		font-size: 42px;
 	}
+
 	h2 {
 		font-size: 32px;
 	}
@@ -243,12 +273,21 @@ a.btn.btn-primary {
 
 /* Screensize - Mobile */
 @media screen and (max-width: 640px) {
+	h1 {
+		font-size: 32px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
 	.d-flex {
 		flex-direction: column;
 	}
 }
 
 @media screen and (min-width: 1680px) {
+
 	/* Global View */
 	.section {
 		padding: 30px 200px;

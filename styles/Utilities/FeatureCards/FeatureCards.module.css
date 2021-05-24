@@ -1,0 +1,13 @@
+.featureSection {
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.features {
+    width: 100%;
+    justify-tracks: center;
+    align-items: center;
+    margin: 30px 0;
+}
