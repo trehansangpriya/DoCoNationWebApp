@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import styles from "../../../../styles/screens/MembershipCard.module.css";
 const MembershipCard = ({ icon, title }) => {
-    return (
-        <div>
+  return (
+    <div className={styles.membershipCard}>
+      <img className="memberIcons" src={icon} />
+      <p>{title}</p>
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default MembershipCard
+export default MembershipCard;

@@ -1,0 +1,64 @@
+.membershipCard {
+  height: 270px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 24px;
+  background: var(--blue-600);
+  box-shadow: 1px 1px 20px #26263a;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.membershipCard p {
+  text-align: center;
+  padding-top: 10px;
+  color: var(--light);
+}
+
+@media screen and (max-width: 1350px) {
+  .membershipCard {
+    width: 320px;
+    flex-direction: row;
+  }
+  .membershipCard img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  .membershipCard p {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .membershipCard {
+    height: 180px;
+    width: 280px;
+    flex-direction: row;
+  }
+  .membershipCard p {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 20px;
+  }
+  .membershipCard img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .membershipCard {
+    width: 250px;
+    flex-direction: row;
+  }
+  .membershipCard img {
+    width: 60px;
+    height: 60px;
+  }
+}

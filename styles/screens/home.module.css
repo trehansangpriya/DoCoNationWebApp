@@ -1,0 +1,28 @@
+.memberContainer {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  row-gap: 0;
+}
+@media screen and (max-width: 1350px) {
+  .memberContainer {
+    grid-template-columns: 2fr 2fr;
+  }
+}
+@media screen and (max-width: 650px) {
+  .memberContainer {
+    grid-template-columns: 2fr;
+  }
+}
+@media screen and (max-width: 450px) {
+  .memberContainer {
+    row-gap: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .memberContainer {
+    column-gap: 20px;
+  }
+}
