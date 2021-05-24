@@ -44,7 +44,6 @@ export default function Home() {
             alt={dataRC[0].alt}
           />
         </div>
-        <FeatureCards title="Why Be A Part Of It?" data={featureCardData} />
         {/* Membership Section Starts */}
         <Membership data={membershipData} />
         {/* Membership Section Ends */}
