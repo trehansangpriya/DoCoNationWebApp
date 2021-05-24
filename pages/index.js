@@ -6,12 +6,17 @@ import heroSectionData from '../data/Home/heroSection.json'
 import Membership from '../components/Screens/Home/Membership';
 import membershipData from '../data/Home/membershipData.json';
 import About from '../components/Screens/Home/About';
+import FeatureCards from "../components/Utilities/FeatureCards";
 import Spacer from '../components/Layout/Spacer';
+import featureCardData from '../data/Home/features.json'
 
 export default function Home() {
   return (
     <WebProvider>
       <Layout>
+
+       
+
         {/* Hero Section Starts */}
         <HeroSection
           content={heroSectionData.content}
@@ -24,9 +29,11 @@ export default function Home() {
         <About id='about' />
         {/* About Section Ends */}
         <Spacer h='50px' />
+           <FeatureCards title="Why Be A Part Of It?" data={featureCardData} />
         {/* Membership Section Starts */}
         <Membership data={membershipData} />
         {/* Membership Section Ends */}
+
       </Layout>
     </WebProvider>
   );
