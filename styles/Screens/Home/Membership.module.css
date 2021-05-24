@@ -1,0 +1,89 @@
+.member {
+	padding: 50px 0;
+}
+
+.member .join {
+	width: 100%;
+	display: flex;
+}
+
+.member .join .text {
+	width: 70%;
+}
+.member .join .text .title {
+	display: flex;
+	align-items: center;
+}
+.member .join .text .title img {
+	width: 72px;
+	margin-right: 20px;
+}
+.member .join .text p {
+	margin: 20px 0;
+}
+.member .join .img {
+	width: 30%;
+	justify-content: center;
+	align-items: center;
+}
+
+.member .join .img img {
+	width: 80%;
+}
+.member .join .btnHolder {
+	display: flex;
+}
+
+.member .join .btnHolder .btn {
+	margin-right: 10px;
+}
+
+.member .getNotified {
+	text-align: center;
+}
+
+.member .getNotified p {
+	margin-top: 16px;
+}
+
+.member .getNotified .icons .icon {
+	margin: 20px;
+	width: 64px;
+	transition: all 200ms ease-in-out;
+}
+
+.member .getNotified .icons .icon:hover {
+	transform: scale(1.08);
+}
+
+/* Tablet CSS */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 640px) {
+	.member .join .text {
+		width: 100%;
+	}
+	.member .join .text .title {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.member .join .text .title img {
+		margin-bottom: 10px;
+		width: 64px;
+	}
+	.member .join .text p {
+		margin: 20px 0;
+	}
+	.member .join .img {
+		display: none;
+	}
+	.member .join .btnHolder {
+		flex-direction: column;
+	}
+	.member .join .btnHolder .btn {
+		margin-right: 0px;
+	}
+}

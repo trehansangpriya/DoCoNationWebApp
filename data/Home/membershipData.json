@@ -2,21 +2,25 @@
   {
     "id": 1,
     "title": "Be one of the pioneers",
-    "icon_url": "/assets/home_Member_Pioneer.png"
+    "icon_url": "/assets/icons/home_Member_Pioneer.png",
+    "alt": "Pioneer"
   },
   {
     "id": 2,
     "title": "Completely Free",
-    "icon_url": "/assets/home_Member_Free.png"
+    "icon_url": "/assets/icons/home_Member_Free.png",
+    "alt": "Free"
   },
   {
     "id": 3,
     "title": "Become a Moderator",
-    "icon_url": "/assets/home_Member_Moderator.png"
+    "icon_url": "/assets/icons/home_Member_Moderator.png",
+    "alt": "Moderator"
   },
   {
     "id": 4,
     "title": "Join the Council",
-    "icon_url": "/assets/home_Member_Council.png"
+    "icon_url": "/assets/icons/home_Member_Council.png",
+    "alt": "Council"
   }
 ]
