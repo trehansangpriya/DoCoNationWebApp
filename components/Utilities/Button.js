@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Button = ({ label, type, link }) => {
-    return (
-        <a href={link} className={`btn ` + type}>{label}</a>
-    )
-}
+  return (
+    <a href={link} className={`btn ` + type}>
+      {label}
+    </a>
+  );
+};
 
-export default Button
+export default Button;

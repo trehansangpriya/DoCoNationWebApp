@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Be one of the pioneers",
+    "icon_url": "/assets/home_Member_Pioneer.png"
+  },
+  {
+    "id": 2,
+    "title": "Completely Free",
+    "icon_url": "/assets/home_Member_Free.png"
+  },
+  {
+    "id": 3,
+    "title": "Become a Moderator",
+    "icon_url": "/assets/home_Member_Moderator.png"
+  },
+  {
+    "id": 4,
+    "title": "Join the Council",
+    "icon_url": "/assets/home_Member_Council.png"
+  }
+]
