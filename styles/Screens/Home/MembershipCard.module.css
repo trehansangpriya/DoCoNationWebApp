@@ -1,0 +1,75 @@
+.membershipCard {
+	height: 220px;
+	width: 220px;
+	padding: 20px 30px;
+	border-radius: 4px;
+	background: var(--blue-600);
+	box-shadow: 0px 0px 8px #26263a;
+	margin: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 200ms ease-in-out;
+}
+
+.membershipCard:hover {
+	box-shadow: 0px 0px 12px #26263a;
+	transform: scale(1.02);
+}
+
+.membershipCard img {
+	width: 72px;
+	margin: 5px;
+}
+.membershipCard span {
+	margin-top: 10px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* Tablet CSS */
+@media screen and (max-width: 768px) {
+	.membershipCard {
+		height: 120px;
+		width: 45%;
+		padding: 20px;
+		flex-direction: row;
+		justify-content: space-between;
+		justify-content: flex-start;
+	}
+
+	.membershipCard img {
+		width: 64px;
+		margin: 5px;
+		margin-right: 20px;
+	}
+	.membershipCard span {
+		margin-top: 0px;
+		font-size: 16px;
+		text-align: left;
+	}
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 640px) {
+	.membershipCard {
+		height: 120px;
+		width: 100%;
+		padding: 20px;
+		margin: 10px 0;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.membershipCard img {
+		width: 64px;
+		margin: 5px;
+		margin-right: 20px;
+	}
+	.membershipCard span {
+		margin-top: 0px;
+		font-size: 16px;
+		text-align: left;
+	}
+}

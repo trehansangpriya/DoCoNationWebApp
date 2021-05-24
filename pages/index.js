@@ -1,14 +1,34 @@
 import React from 'react';
-import Button from '../components/Utilities/Button';
 import { WebProvider } from '../contexts/WebConext';
 import Layout from './../components/Layout/Layout';
-import dataRC from '../data/Home/detailRC.json';
+import HeroSection from '../components/Utilities/HeroSection';
+import heroSectionData from '../data/Home/heroSection.json'
+import Membership from '../components/Screens/Home/Membership';
+import membershipData from '../data/Home/membershipData.json';
+import About from '../components/Screens/Home/About';
+import FeatureCards from "../components/Utilities/FeatureCards";
+import Spacer from '../components/Layout/Spacer';
+import featureCardData from '../data/Home/features.json'
 import DetailRC from '../components/Utilities/DetailRC';
+import dataRC from '../data/Home/detailRC.json';
+
 export default function Home() {
   return (
     <WebProvider>
       <Layout>
-        <div className="section">
+        {/* Hero Section Starts */}
+        <HeroSection
+          content={heroSectionData.content}
+          title={heroSectionData.title}
+          img={heroSectionData.img}
+          link={heroSectionData.link} />
+        {/* Hero Section Ends */}
+        <Spacer h='50px' />
+        {/* About Section Starts */}
+        <About id='about' />
+        {/* About Section Ends */}
+        <Spacer h='50px' />
+           <div className="section">
           <DetailRC
             generalTitle={dataRC[0].title.general}
             coloredTitle={dataRC[0].title.highlight}
@@ -19,7 +39,13 @@ export default function Home() {
             rev={dataRC[0].rev}
             alt={dataRC[0].alt}
           />
-          <DetailRC
+</div>
+           <FeatureCards title="Why Be A Part Of It?" data={featureCardData} />
+        {/* Membership Section Starts */}
+        <Membership data={membershipData} />
+        {/* Membership Section Ends */}
+   <div className="section">
+ <DetailRC
             generalTitle={dataRC[1].title.general}
             coloredTitle={dataRC[1].title.highlight}
             content={dataRC[1].content}

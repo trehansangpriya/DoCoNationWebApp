@@ -38,6 +38,9 @@
 	font-weight: 600;
 	transition: all 200ms;
 	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navLink:hover {

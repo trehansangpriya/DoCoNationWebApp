@@ -1,5 +1,5 @@
 /* Fonts from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
 /* Global Variables */
 :root {
@@ -17,9 +17,12 @@
   --success: #00e175;
   --doco: #22006a;
 
-  /* Fonts */
-  --mon: 'Montserrat', sans-serif;
+
+	/* Fonts */
+	--mon: "Montserrat", sans-serif;
+
 }
+
 /* Global Styles */
 * {
   padding: 0;
@@ -49,10 +52,12 @@ a {
   color: var(--light);
   background-color: var(--blue);
 }
+
 *::-moz-selection {
   color: var(--light);
   background-color: var(--blue);
 }
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -74,75 +79,101 @@ a {
 .c-blue {
   color: var(--blue);
 }
+
 .c-blue400 {
   color: var(--blue-400);
 }
+
 .c-blue600 {
   color: var(--blue-600);
 }
+
 .c-blue400 {
   color: var(--blue-600);
 }
+
 .c-yellow {
   color: var(--yellow);
 }
+
 .c-light {
   color: var(--light);
 }
+
 .c-dark {
   color: var(--dark);
 }
+
 .c-success {
   color: var(--success);
 }
+
 .c-danger {
   color: var(--danger);
 }
+
 .c-grey {
   color: var(--grey);
 }
+
 .c-greyL {
   color: var(--greyL);
 }
+
 .bg-blue {
   background-color: var(--blue);
 }
+
 .bg-blue400 {
-  color: var(--blue-400);
+
+	background-color: var(--blue-400);
+
 }
+
 .bg-blue600 {
-  color: var(--blue-600);
+	background-color: var(--blue-600);
 }
-.bg-blue400 {
-  color: var(--blue-600);
+
+.bg-blue800 {
+	background-color: var(--blue-800);
+
 }
+
 .bg-yellow {
   background-color: var(--yellow);
 }
+
 .bg-light {
   background-color: var(--light);
 }
+
 .bg-dark {
   background-color: var(--dark);
 }
+
 .bg-success {
   background-color: var(--success);
 }
+
 .bg-danger {
   background-color: var(--danger);
 }
+
 .bg-grey {
   background-color: var(--grey);
 }
+
 .bg-greyL {
   background-color: var(--greyL);
 }
 
 /* Global Headings */
 h1 {
-  margin: 4px 0;
-  font-size: 68px;
-  font-weight: 800;
+
+	margin: 4px 0;
+	font-size: 68px;
+	font-weight: 800;
+
 }
 
 h2 {
@@ -160,29 +191,37 @@ p {
 
 /* Global Button */
 a.btn {
-  margin: 10px 0;
-  padding: 15px 30px;
-  border-radius: 4px;
-  font-size: 18px;
-  font-weight: 600;
-  display: inline-block;
+
+	margin: 10px 0;
+	padding: 15px 30px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 600;
+	display: inline-block;
+	text-align: center;
 }
 
 a.btn.btn-sec {
-  background-color: var(--light);
-  color: var(--blue);
-  font-weight: 700;
-  border: 2px solid var(--blue);
+	background-color: transparent;
+	color: var(--blue);
+	font-weight: 700;
+	border: 2px solid var(--blue);
 }
+
 a.btn.btn-primary {
-  background-color: var(--blue);
-  color: var(--light);
+
+	background-color: var(--blue);
+	border: 2px solid var(--blue);
+
+	color: var(--light);
+
 }
 
 /* Global Display Utility */
 .row {
   width: 100%;
 }
+
 .col {
   width: 50%;
 }
@@ -198,6 +237,7 @@ a.btn.btn-primary {
 .d-col-rev {
   flex-direction: column-reverse;
 }
+
 .d-row-rev {
   flex-direction: row-reverse;
 }
@@ -214,22 +254,27 @@ a.btn.btn-primary {
 
 /* Screensize - iPad */
 @media screen and (max-width: 768px) {
-  /* Global View */
-  .section {
-    padding: 30px;
-  }
-  /* Global Headings */
-  h1 {
-    font-size: 32px;
-  }
-  h2 {
-    font-size: 32px;
-  }
 
-  /* Global Content */
-  p {
-    font-size: 18px;
-  }
+
+	/* Global View */
+	.section {
+		padding: 30px;
+	}
+
+	/* Global Headings */
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	/* Global Content */
+	p {
+		font-size: 18px;
+	}
+
 
   /* Global Button */
   a.btn {
@@ -243,14 +288,34 @@ a.btn.btn-primary {
 
 /* Screensize - Mobile */
 @media screen and (max-width: 640px) {
-  .d-flex {
-    flex-direction: column;
-  }
+
+
+	h1 {
+		font-size: 32px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	.d-flex {
+		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+	/* Global Content */
+	p {
+		font-size: 18px;
+	}
 }
 
 @media screen and (min-width: 1680px) {
-  /* Global View */
-  .section {
-    padding: 30px 200px;
-  }
+
+	/* Global View */
+	.section {
+		padding: 30px 200px;
+	}
 }
+
