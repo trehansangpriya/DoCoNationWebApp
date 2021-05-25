@@ -1,29 +1,18 @@
 import React from 'react'
 import featureCardStyles from '../../../styles/Utilities/FeatureCards/FeatureCard.module.css'
 
-const FeatureCard = ({ data }) => {
-
-
-
+const FeatureCard = ({ icon, title }) => {
     return (
-
-        <div className={featureCardStyles.featContainer}>
-            {data.map(feature => (
-                <div className={featureCardStyles.feature + ' d-flex'}>
-
-                    <div className={featureCardStyles.icon}>
-                        <img src={feature.icon} alt="Something" />
-                    </div>
-
-                    <div className={featureCardStyles.title}>
-                        {feature.title}
-                    </div>
-
-                </div>
-            ))}
-
+        <div className={featureCardStyles.feature + ' d-flex'}>
+            <div className={featureCardStyles.title}>
+                <span>
+                    {title}
+                </span>
+            </div>
+            <div className={featureCardStyles.icon}>
+                <img src={icon} alt={title} />
+            </div>
         </div>
-
     )
 }
 

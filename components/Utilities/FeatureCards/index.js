@@ -5,13 +5,13 @@ import featureStyle from '../../../styles/Utilities/FeatureCards/FeatureCards.mo
 const FeatureCards = ({ title, data }) => {
     return (
         <div className={featureStyle.featureSection + ' section d-flex d-col'}>
-
             <h2 style={{ textAlign: " center " }}>
                 {title}
             </h2>
-
             <div className={featureStyle.features}>
-                <FeatureCard data={data} />
+                {data.map(({ title, icon }) => (
+                    <FeatureCard title={title} icon={icon} />
+                ))}
             </div>
         </div>
     )
