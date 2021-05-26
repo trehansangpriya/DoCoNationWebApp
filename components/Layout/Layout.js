@@ -29,7 +29,6 @@ const Layout = ({ children, title, kw, desc }) => {
         {children}
         <div className="space"></div>
       </div>
-      <DetailRC title={title} />
       <Footer />
     </main>
   );

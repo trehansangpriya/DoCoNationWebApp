@@ -37,7 +37,7 @@
 }
 
 /* Tablet CSS */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1250px) {
 	.feature {
 		width: 45%;
 		padding: 20px 40px;
@@ -50,12 +50,12 @@
 		font-size: 18px;
 	}
 	.feature .title span {
-		width: 60%;
+		width: 70%;
 	}
 }
 
 /* Mobile CSS */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
 	.feature {
 		width: 100%;
 		padding: 20px 30px;

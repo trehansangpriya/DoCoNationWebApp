@@ -10,7 +10,7 @@ const FeatureCards = ({ title, data }) => {
             </h2>
             <div className={featureStyle.features}>
                 {data.map(({ title, icon }) => (
-                    <FeatureCard title={title} icon={icon} />
+                    <FeatureCard key={title} title={title} icon={icon} />
                 ))}
             </div>
         </div>

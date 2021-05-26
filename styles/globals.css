@@ -190,7 +190,16 @@ a.btn {
 	font-size: 18px;
 	font-weight: 600;
 	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
+	cursor: pointer;
+	transition: all 100ms;
+}
+
+a.btn:hover {
+	transform: scale(1.05);
 }
 
 a.btn.btn-sec {
@@ -300,5 +309,11 @@ a.btn.btn-primary {
 	/* Global View */
 	.section {
 		padding: 30px 200px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	/* Global View */
+	.section {
+		padding: 30px 40px;
 	}
 }

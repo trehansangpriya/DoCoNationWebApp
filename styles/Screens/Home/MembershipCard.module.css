@@ -1,6 +1,6 @@
 .membershipCard {
 	height: 220px;
-	width: 220px;
+	width: 25%;
 	padding: 20px 30px;
 	border-radius: 4px;
 	background: var(--blue-600);
@@ -23,49 +23,39 @@
 	margin: 5px;
 }
 .membershipCard span {
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 22px;
 	text-align: center;
 }
 
 /* Tablet CSS */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
 	.membershipCard {
-		height: 120px;
+		height: fit-content;
 		width: 45%;
-		padding: 20px;
-		flex-direction: row;
-		justify-content: space-between;
-		justify-content: flex-start;
+		padding: 30px 20px;
 	}
 
 	.membershipCard img {
 		width: 64px;
-		margin: 5px;
-		margin-right: 20px;
 	}
 	.membershipCard span {
-		margin-top: 0px;
 		font-size: 16px;
-		text-align: left;
 	}
 }
 
 /* Mobile CSS */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
 	.membershipCard {
-		height: 120px;
 		width: 100%;
-		padding: 20px;
 		margin: 10px 0;
-		flex-direction: row;
-		justify-content: flex-start;
+		flex-direction: row-reverse;
+		justify-content: space-between;
 	}
 
 	.membershipCard img {
-		width: 64px;
-		margin: 5px;
-		margin-right: 20px;
+		width: 52px;
+		margin: 0px;
 	}
 	.membershipCard span {
 		margin-top: 0px;

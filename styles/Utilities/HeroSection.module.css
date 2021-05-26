@@ -1,6 +1,6 @@
 .heroSection {
 	width: 100%;
-	height: calc(90vh - 80px);
+	height: calc(100vh - 80px);
 	justify-content: flex-start;
 	align-items: center;
 }
@@ -30,12 +30,13 @@
 .heroSection .btnHolder {
 	display: none;
 }
+
 /* Screensize - iPad */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
 	.heroSection {
 		flex-direction: column-reverse;
 		justify-content: center;
-		height: calc(80vh - 80px);
+		height: calc(100vh - 80px);
 	}
 	.heroSection .text {
 		width: 100%;
