@@ -1,0 +1,75 @@
+.feature {
+	width: 30%;
+	background-color: var(--light);
+	padding: 30px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 2px 20px 0px #7289da38, -0.5px -0.5px 1px 0px #fcfcfc inset,
+		1px 1px 1px 0px rgba(114, 137, 218, 0.02);
+	border-radius: 8px;
+	margin: 10px;
+	height: fit-content;
+}
+
+.feature .title {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--dark);
+}
+
+.feature .title span {
+	width: 80%;
+}
+
+.feature .icon {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.feature .icon img {
+	width: 64px;
+}
+
+/* Tablet CSS */
+@media screen and (max-width: 1250px) {
+	.feature {
+		width: 45%;
+		padding: 20px 40px;
+		justify-content: space-evenly;
+	}
+	.feature .icon img {
+		width: 52px;
+	}
+	.feature .title {
+		font-size: 18px;
+	}
+	.feature .title span {
+		width: 70%;
+	}
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 700px) {
+	.feature {
+		width: 100%;
+		padding: 20px 30px;
+		justify-content: center;
+		flex-direction: row;
+		margin: 5px;
+	}
+	.feature .title {
+		font-size: 18px;
+	}
+	.feature .title span {
+		width: 80%;
+	}
+	.feature .icon img {
+		width: 42px;
+	}
+}

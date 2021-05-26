@@ -15,7 +15,7 @@ const Nav = () => {
                     links.map(
                         link =>
                         (
-                            <Link href={link.url}>
+                            <Link key={link.title} href={link.url}>
                                 <a className={navStyle.navLink} target={link.target} onClick={e => (setNavOpen(!navOpen))} >
                                     <span>{link.title}</span>
                                 </a>

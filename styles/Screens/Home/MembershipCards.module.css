@@ -6,7 +6,7 @@
 }
 
 /* Tablet CSS */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
 	.memberContainer {
 		width: 100%;
 		flex-wrap: wrap;
@@ -16,7 +16,6 @@
 /* Mobile CSS */
 @media screen and (max-width: 640px) {
 	.memberContainer {
-		width: 100%;
 		flex-direction: column;
 	}
 }

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Find Your Niche",
+        "icon": "/assets/icons/home-feature-niche.png"
+    },
+    {
+        "title": "Grow Your Network",
+        "icon": "/assets/icons/home-feature-network.png"
+    },
+    {
+        "title": "Doubt Support",
+        "icon": "/assets/icons/home-feature-doubts.png"
+    },
+    {
+        "title": "Events & Podcasts",
+        "icon": "/assets/icons/home-feature-events.png"
+    },
+    {
+        "title": "Learning Resources",
+        "icon": "/assets/icons/home-feature-resources.png"
+    },
+    {
+        "title": "Games & Activities",
+        "icon": "/assets/icons/home-feature-fun.png"
+    }
+]

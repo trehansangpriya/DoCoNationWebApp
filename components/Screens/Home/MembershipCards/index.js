@@ -7,7 +7,7 @@ const MembershipCards = ({ data }) => {
     <div className={styles.memberContainer}>
       {data.map((data) => (
         <MembershipCard
-          icon={data.icon_url}
+          icon={data.iconUrl}
           title={data.title}
           alt={data.alt}
           key={data.id}

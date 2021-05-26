@@ -1,0 +1,51 @@
+.detailRC {
+	justify-content: space-between;
+	align-items: center;
+}
+.detailRC .imgContainer {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.detailRC .imgContainer img {
+	width: 100%;
+}
+.detailRC .textDetail {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 30px;
+}
+.detailRC .btns {
+	display: flex;
+}
+.detailRC .btn {
+	margin-right: 10px;
+}
+
+/* Tablet CSS */
+@media screen and (max-width: 768px) {
+	.detailRC .textDetail {
+		padding: 10px 20px;
+	}
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 640px) {
+	.detailRC .imgContainer {
+		width: 100%;
+	}
+	.detailRC .textDetail {
+		width: 100%;
+		padding: 10px 0;
+	}
+	.detailRC .btns {
+		display: flex;
+		flex-direction: column;
+	}
+	.detailRC .btn {
+		margin-right: 0px;
+	}
+}
