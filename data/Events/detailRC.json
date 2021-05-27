@@ -1,0 +1,12 @@
+[
+    {
+        "rev": false,
+        "img": "/assets/images/events-detailRC-events.png",
+        "title": {
+            "general": "Events and",
+            "highlight": "Podcasts"
+        },
+        "content": "Join in for a whole LIVE Podcast experience on Discord.",
+        "alt": "events & podcasts"
+    }
+]

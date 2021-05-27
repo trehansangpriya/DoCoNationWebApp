@@ -13,5 +13,10 @@
         "title": "Benefits",
         "url": "/#benefits",
         "target": ""
+    },
+    {
+        "title": "Events",
+        "url": "/events",
+        "target": ""
     }
 ]
