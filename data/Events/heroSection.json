@@ -1,0 +1,12 @@
+{
+    "title": {
+        "general": "Know What's Up at ",
+        "highlight": "DoCoNation"
+    },
+    "content": "It is a compact solution for all student problems out there! A place where there’s no room for boredom.",
+    "img": {
+        "src": "/assets/images/events-hero-illus.png",
+        "alt": "DoCoNation Events"
+    },
+    "link": "#"
+}

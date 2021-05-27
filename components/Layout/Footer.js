@@ -13,7 +13,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/DotComGenerations/" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-facebook"></i></li>
                 </a>
-                <a href="https://www.youtube.com/channel/UCaGdB9JGcImaBh3JXy1UUIw" target="_blank" className={footerStyles.social}>
+                <a href="https://doco.link/youtube" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-youtube"></i></li>
                 </a>
                 <a href="https://in.pinterest.com/dotcomgenerations/" target="_blank" className={footerStyles.social}>
