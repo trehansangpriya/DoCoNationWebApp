@@ -21,8 +21,7 @@ const Membership = ({ data, id }) => {
               <h2>Join DoCoNation</h2>
             </div>
             <p>
-              Discord is a Platform just like Whatsapp, or Instagram, where people connect together, and
-              essentially form communities on!
+              A student-friendly community where everyone can have fun and at the same time learn something useful and new.
 						</p>
             <div className={membershipStyles.btnHolder}>
               <a href="https://doco.link/nation" target='_blank' className={membershipStyles.btn + ' btn btn-primary'}>
@@ -42,7 +41,7 @@ const Membership = ({ data, id }) => {
           <h2>
             Get Notified On <span className='c-yellow'>Your Favorite Apps</span>
           </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, omnis.</p>
+          <p>Do not miss any events or updates!</p>
           <div className={membershipStyles.icons}>
             <a href="https://doco.link/nation-whatsapp" target='_blank'>
               <img src="/assets/icons/whatsapp.png" alt="DoCoNation WhatsApp" className={membershipStyles.icon} />

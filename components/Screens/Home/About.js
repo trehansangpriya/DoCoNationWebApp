@@ -8,8 +8,8 @@ const About = ({ id }) => {
                 style={{
                     textAlign: 'justify'
                 }}
-            >DoCoNation is a student community, made by students for students all around the globe to collaborate, network, and grow together! <br />
-            It is a compact solution for all student problems out there! </p>
+            >DoCoNation is a student community, made by the students for the students all around the globe to collaborate, network, and grow together! <br />
+            It is a one-stop solution for all student problems out there!</p>
         </div>
     )
 }

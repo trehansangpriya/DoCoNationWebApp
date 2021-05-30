@@ -3,15 +3,16 @@
     "rev": false,
     "img": "/assets/images/home-detailRC-events.png",
     "title": {
-      "general": "Events and",
-      "highlight": "Podcasts"
+      "general": "Live Events",
+      "highlight": "& Podcasts"
     },
-    "content": "Join in for a whole LIVE Podcast experience on Discord.",
+    "content": "Learn something new almost everyday!",
     "alt": "events & podcasts",
     "btns": {
       "primary": {
-        "label": "Coming Soon",
-        "type": "btn-primary"
+        "label": "Join Now",
+        "type": "btn-primary",
+        "link": "/#join"
       }
     }
   },
@@ -22,7 +23,7 @@
       "general": "Startup ",
       "highlight": "Experience"
     },
-    "content": "Join in for a whole LIVE Podcast experience on Discord.",
+    "content": "Know what it takes to build a company & be a part of the hustle!",
     "alt": "Startup Experience",
     "btns": {
       "primary": {
