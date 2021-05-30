@@ -2,9 +2,9 @@ import React from 'react'
 import FeatureCard from './FeatureCard'
 import featureStyle from '../../../styles/Utilities/FeatureCards/FeatureCards.module.css'
 
-const FeatureCards = ({ title, data }) => {
+const FeatureCards = ({ title, data, id }) => {
     return (
-        <div className={featureStyle.featureSection + ' section d-flex d-col'}>
+        <div id={id} className={featureStyle.featureSection + ' section d-flex d-col'}>
             <h2 style={{ textAlign: " center " }}>
                 {title}
             </h2>

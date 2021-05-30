@@ -1,7 +1,7 @@
 [
     {
         "title": "Home",
-        "url": "/#",
+        "url": "/#home",
         "target": ""
     },
     {
@@ -12,11 +12,6 @@
     {
         "title": "Benefits",
         "url": "/#benefits",
-        "target": ""
-    },
-    {
-        "title": "Events",
-        "url": "/events",
         "target": ""
     }
 ]

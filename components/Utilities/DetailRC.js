@@ -38,9 +38,10 @@ const DetailRC = ({
               <Button
                 label={btnPri.label}
                 type={btnPri.type + " " + detailRCstyles.btn}
+                link={btnPri.link}
               />
             )}
-            {btnSec && <Button label={btnSec.label} type={btnSec.type} />}
+            {btnSec && <Button label={btnSec.label} type={btnSec.type} link={btnSec.link} />}
           </div>
         </div>
       </div>

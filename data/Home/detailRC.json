@@ -2,30 +2,31 @@
   {
     "rev": false,
     "img": "/assets/images/home-detailRC-events.png",
-    "title": { "general": "Events and", "highlight": "Podcasts" },
+    "title": {
+      "general": "Events and",
+      "highlight": "Podcasts"
+    },
     "content": "Join in for a whole LIVE Podcast experience on Discord.",
     "alt": "events & podcasts",
     "btns": {
       "primary": {
-        "label": "Peek Now!",
+        "label": "Coming Soon",
         "type": "btn-primary"
-      },
-
-      "secondary": {
-        "label": "Explore",
-        "type": "btn-sec"
       }
     }
   },
   {
     "rev": true,
     "img": "/assets/images/home-detailRC-startup.png",
-    "title": { "general": "Startup ", "highlight": "Experience" },
+    "title": {
+      "general": "Startup ",
+      "highlight": "Experience"
+    },
     "content": "Join in for a whole LIVE Podcast experience on Discord.",
     "alt": "Startup Experience",
     "btns": {
       "primary": {
-        "label": "Know more",
+        "label": "Coming Soon",
         "type": "btn-primary"
       }
     }

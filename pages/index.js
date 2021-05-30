@@ -26,6 +26,7 @@ export default function Home() {
       <Layout>
         {/* Hero Section Starts */}
         <HeroSection
+          id='home'
           content={heroSectionData.content}
           title={heroSectionData.title}
           img={heroSectionData.img}
@@ -41,7 +42,7 @@ export default function Home() {
         <Spacer h='100px' />
 
         {/* Feature Section Starts */}
-        <FeatureCards title="Why Be A Part Of It?" data={featureCardData} />
+        <FeatureCards id='benefits' title="Why Be A Part Of It?" data={featureCardData} />
         {/* Feature Section Ends */}
 
         <Spacer h='50px' />
@@ -62,7 +63,7 @@ export default function Home() {
         <Spacer h='50px' />
 
         {/* Membership Section Starts */}
-        <Membership data={membershipData} />
+        <Membership id='join' data={membershipData} />
         {/* Membership Section Ends */}
 
         <Spacer h='50px' />

@@ -1,9 +1,9 @@
 import React from 'react'
 import heroStyles from '../../styles/Utilities/HeroSection.module.css'
 
-const HeroSection = ({ title, content, img, link }) => {
+const HeroSection = ({ title, content, img, link, id }) => {
     return (
-        <div className={heroStyles.heroSection + ' section d-flex'}>
+        <div id={id} className={heroStyles.heroSection + ' section d-flex'}>
             <div className={heroStyles.text}>
                 <h1>
                     {title.general}
