@@ -20,6 +20,8 @@ import dataRC from '../data/Home/detailRC.json';
 // General Utility
 import Spacer from '../components/Layout/Spacer';
 
+
+// Version 1.1
 export default function Home() {
   return (
     <WebProvider>
