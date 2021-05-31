@@ -4,6 +4,7 @@ const About = ({ id }) => {
     return (
         <div id={id} className='section' style={{ scrollMarginTop: '80px' }}>
             <h2>What is <span className="c-blue">DoCoNation?</span></h2>
+            <br />
             <p
                 style={{
                     textAlign: 'justify'

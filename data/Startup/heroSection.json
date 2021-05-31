@@ -1,0 +1,12 @@
+{
+    "title": {
+        "general": "Be A Part of ",
+        "highlight": "The Hustle!"
+    },
+    "content": "It is a compact solution for all student problems out there! A place where there’s no room for boredom.",
+    "img": {
+        "src": "/assets/images/startup-hero-illus.png",
+        "alt": "DoCoNation - Startup Experience"
+    },
+    "link": "#join"
+}

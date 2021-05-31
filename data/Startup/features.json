@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Web Dev",
+        "icon": "/assets/icons/startup-domain-webdev.png"
+    },
+    {
+        "title": "UI-UX",
+        "icon": "/assets/icons/startup-domain-uiux.png"
+    },
+    {
+        "title": "Finance",
+        "icon": "/assets/icons/startup-domain-finance.png"
+    },
+    {
+        "title": "Coding",
+        "icon": "/assets/icons/startup-domain-coding.png"
+    },
+    {
+        "title": "Marketing",
+        "icon": "/assets/icons/startup-domain-marketing.png"
+    },
+    {
+        "title": "Content",
+        "icon": "/assets/icons/startup-domain-content.png"
+    },
+    {
+        "title": "App Dev",
+        "icon": "/assets/icons/startup-domain-appdev.png"
+    },
+    {
+        "title": "Design",
+        "icon": "/assets/icons/startup-domain-design.png"
+    },
+    {
+        "title": "Startups",
+        "icon": "/assets/icons/startup-domain-startup.png"
+    }
+]

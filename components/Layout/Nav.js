@@ -23,7 +23,7 @@ const Nav = () => {
                         )
                     )
                 }
-                <a
+                {/*  <a
                     href="#join"
                     className="btn btn-primary"
                     style={{
@@ -31,7 +31,7 @@ const Nav = () => {
                     }}
                 >
                     Join Now
-                </a>
+                </a>*/}
             </div>
 
             <div className={!navOpen ? navStyle.burger : navStyle.burger + " " + navStyle.toggle} onClick={e => (setNavOpen(!navOpen))}>

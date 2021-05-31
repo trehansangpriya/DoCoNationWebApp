@@ -13,5 +13,15 @@
         "title": "Benefits",
         "url": "/#benefits",
         "target": ""
+    },
+    {
+        "title": "Events",
+        "url": "/events",
+        "target": ""
+    },
+    {
+        "title": "Startup Experience",
+        "url": "/startup",
+        "target": ""
     }
 ]

@@ -1,0 +1,18 @@
+[
+    {
+        "rev": true,
+        "img": "/assets/images/startup-detailRC-startupExp.png",
+        "title": {
+            "general": "Heading Goes",
+            "highlight": "& Here"
+        },
+        "content": "Know what it takes to build a company & be a part of the hustle!",
+        "alt": "startup-experience",
+        "btns": {
+            "primary": {
+                "label": "Join Now",
+                "type": "btn-primary"
+            }
+        }
+    }
+]

@@ -1,4 +1,4 @@
-.feature {
+.card {
 	width: 30%;
 	background-color: var(--light);
 	padding: 30px 40px;
@@ -12,68 +12,69 @@
 	height: fit-content;
 	transition: all 200ms ease-in-out;
 }
-.feature:hover {
+.card:hover {
 	transform: scale(1.05);
 }
-
-.feature .title {
-	flex: 1;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+.card .title {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
 	font-size: 22px;
 	font-weight: 700;
-	color: var(--dark);
 }
 
-.feature .title span {
-	width: 80%;
+.card .title span {
+	width: 100%;
+}
+.card .content {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
 }
 
-.feature .icon {
+.card .icon {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 
-.feature .icon img {
+.card .icon img {
 	width: 64px;
 }
 
 /* Tablet CSS */
 @media screen and (max-width: 1250px) {
-	.feature {
+	.card {
 		width: 45%;
 		padding: 20px 40px;
 		justify-content: space-evenly;
 	}
-	.feature .icon img {
+	.card .icon img {
 		width: 52px;
 	}
-	.feature .title {
+	.card .title {
 		font-size: 18px;
 	}
-	.feature .title span {
+	.card .title span {
 		width: 70%;
 	}
 }
 
 /* Mobile CSS */
 @media screen and (max-width: 700px) {
-	.feature {
+	.card {
 		width: 100%;
 		padding: 20px 30px;
 		justify-content: center;
-		flex-direction: row;
 		margin: 5px;
 	}
-	.feature .title {
+	.card .title {
 		font-size: 18px;
 	}
-	.feature .title span {
+	.card .title span {
 		width: 80%;
 	}
-	.feature .icon img {
+	.card .icon img {
 		width: 42px;
 	}
 }

@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Work Experience",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        "icon": "/assets/icons/startup-card-work.png"
+    },
+    {
+        "title": "Projects",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        "icon": "/assets/icons/startup-card-projects.png"
+    },
+    {
+        "title": "Mentor Support",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        "icon": "/assets/icons/startup-card-mentor.png"
+    },
+    {
+        "title": "Explore Careers",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        "icon": "/assets/icons/startup-card-career.png"
+    },
+    {
+        "title": "Up-Skill Yourself",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        "icon": "/assets/icons/startup-card-skill.png"
+    },
+    {
+        "title": "Profile Upgrade",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        "icon": "/assets/icons/startup-card-profile.png"
+    }
+]
