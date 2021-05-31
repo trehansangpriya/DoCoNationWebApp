@@ -248,7 +248,15 @@ a.btn.btn-primary {
 
 /* Global View */
 .section {
+	scroll-margin: 90px;
 	padding: 30px 120px;
+}
+
+@media screen and (max-width: 1080px) {
+	/* Global View */
+	.section {
+		padding: 30px 40px;
+	}
 }
 
 /* Screensize - iPad */
@@ -284,6 +292,10 @@ a.btn.btn-primary {
 
 /* Screensize - Mobile */
 @media screen and (max-width: 640px) {
+	/* Global View */
+	.section {
+		padding: 30px;
+	}
 	h1 {
 		font-size: 32px;
 	}
@@ -309,11 +321,5 @@ a.btn.btn-primary {
 	/* Global View */
 	.section {
 		padding: 30px 200px;
-	}
-}
-@media screen and (max-width: 1080px) {
-	/* Global View */
-	.section {
-		padding: 30px 40px;
 	}
 }
