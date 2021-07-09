@@ -8,5 +8,6 @@
         "src": "/assets/images/events-hero-illus.png",
         "alt": "DoCoNation Events"
     },
-    "link": "#"
+    "link": "#explore",
+    "btnTitle": "Explore"
 }

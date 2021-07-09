@@ -1,8 +1,4 @@
-import React from 'react'
-//Global Context
-import { WebProvider } from '../contexts/WebConext';
-// Screen Layout - Nav, Footer, Meta
-import Layout from './../components/Layout/Layout';
+import React, { useEffect, useState } from 'react'
 // Hero Section
 import HeroSection from '../components/Utilities/HeroSection';
 import heroSectionData from '../data/Startup/heroSection.json'
@@ -22,76 +18,74 @@ import Spacer from '../components/Layout/Spacer';
 
 const Startup = () => {
     return (
-        <WebProvider>
-            <Layout>
-                {/* Hero Section Starts */}
-                <HeroSection
-                    content={heroSectionData.content}
-                    title={heroSectionData.title}
-                    img={heroSectionData.img}
-                    link={heroSectionData.link} />
-                {/* Hero Section Ends */}
+        <div>
+            {/* Hero Section Starts */}
+            <HeroSection
+                content={heroSectionData.content}
+                title={heroSectionData.title}
+                img={heroSectionData.img}
+                btnTitle={heroSectionData.btnTitle}
+                link={heroSectionData.link} />
+            {/* Hero Section Ends */}
 
-                <Spacer h='50px' />
+            <Spacer h='50px' />
 
-                {/* About Section Starts */}
-                <About id='about' />
-                {/* About Section Ends */}
+            {/* About Section Starts */}
+            <About id='about' />
+            {/* About Section Ends */}
 
-                <Spacer h='100px' />
+            <Spacer h='100px' />
 
-                {/* Domains Starts */}
-                <FeatureCards
-                    title='Choose a domain that you like!'
-                    data={domainData}
-                />
-                {/* Domains Ends */}
+            {/* Domains Starts */}
+            <FeatureCards
+                title='Multiple Domains To Choose Form!'
+                data={domainData}
+            />
+            {/* Domains Ends */}
 
-                <Spacer h='100px' />
+            <Spacer h='100px' />
 
-                {/* DetailRC Starts */}
-                <DetailRC
-                    generalTitle={dataRC[0].title.general}
-                    coloredTitle={dataRC[0].title.highlight}
-                    content={dataRC[0].content}
-                    img={dataRC[0].img}
-                    btnPri={dataRC[0].btns.primary}
-                    btnSec={dataRC[0].btns.secondary}
-                    rev={dataRC[0].rev}
-                    alt={dataRC[0].alt}
-                />
-                {/* DetailRC Ends */}
+            {/* DetailRC Starts */}
+            <DetailRC
+                generalTitle={dataRC[0].title.general}
+                coloredTitle={dataRC[0].title.highlight}
+                content={dataRC[0].content}
+                img={dataRC[0].img}
+                btnPri={dataRC[0].btns.primary}
+                btnSec={dataRC[0].btns.secondary}
+                rev={dataRC[0].rev}
+                alt={dataRC[0].alt}
+            />
+            {/* DetailRC Ends */}
 
 
-                <Spacer h='100px' />
+            <Spacer h='100px' />
 
-                {/* Why Startup Experience Starts */}
-                <Cards title='Why try this out?' data={startupCardData} />
-                {/* Why Startup Experience Ends */}
+            {/* Why Startup Experience Starts */}
+            <Cards title='Why try this out?' data={startupCardData} />
+            {/* Why Startup Experience Ends */}
 
-                <Spacer h='80px' />
-                <div
-                    className='section d-flex d-col'
+            <Spacer h='80px' />
+            <div
+                className='section d-flex d-col'
+                style={{
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                }}
+            >
+                <h2
                     style={{
-                        justifyContent: 'center',
-                        alignItems: 'center'
+                        textAlign: 'center'
                     }}
-                >
-                    <h2
-                        style={{
-                            textAlign: 'center'
-                        }}
-                    >What are you waiting for?</h2>
-                    <br />
-                    <div className='d-flex' >
-                        <a href="#" className="btn btn-primary">Apply Now</a>
-                    </div>
+                >What are you waiting for?</h2>
+                <br />
+                <div className='d-flex' >
+                    <a href="#" className="btn btn-primary">Apply Now</a>
                 </div>
-                <Spacer h='50px' />
+            </div>
+            <Spacer h='50px' />
+        </div>)
 
-            </Layout>
-        </WebProvider>
-    )
 }
 
 export default Startup

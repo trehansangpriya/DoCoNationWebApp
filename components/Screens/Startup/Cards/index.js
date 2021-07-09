@@ -12,6 +12,7 @@ const Cards = ({ title, data }) => {
             <div className={styles.cards}>
                 {data.map(({ title, icon, content }) => (
                     <Card
+                        key={title}
                         content={content}
                         title={title}
                         icon={icon}

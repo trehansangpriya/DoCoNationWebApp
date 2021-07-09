@@ -8,5 +8,6 @@
         "src": "/assets/images/home-hero-illus.png",
         "alt": "DoCoNation"
     },
+    "btnTitle": "Join Now",
     "link": "#join"
 }

@@ -12,8 +12,7 @@ const About = () => {
                 style={{
                     textAlign: 'justify'
                 }}
-            >DoCoNation is a student community, made by the students for the students all around the globe to collaborate, network, and grow together! <br />
-            It is a one-stop solution for all student problems out there!</p>
+            >Get an insight into how work is done in a Startup. The motto behind this new venture is to provide all students with the “Industry Experience” that all of us want to get. You can work with us in any domain that you may be skilled in.</p>
             <br />
             <div className={styles.btnHolder}>
                 <a href="#" className="btn btn-primary">Apply Now</a>

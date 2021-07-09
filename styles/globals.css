@@ -4,6 +4,7 @@
 /* Global Variables */
 :root {
 	/* Colors */
+	--blue-200: #e2e5f2;
 	--blue: #7289da;
 	--blue-400: #292841;
 	--blue-600: #1c1b29;
@@ -121,6 +122,9 @@ a {
 .bg-blue {
 	background-color: var(--blue);
 }
+.bg-blue200 {
+	background-color: var(--blue-200);
+}
 
 .bg-blue400 {
 	background-color: var(--blue-400);
@@ -199,7 +203,7 @@ a.btn {
 }
 
 a.btn:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 a.btn.btn-sec {
@@ -214,6 +218,12 @@ a.btn.btn-primary {
 	border: 2px solid var(--blue);
 
 	color: var(--light);
+}
+a.btn.btn-success {
+	background-color: var(--success);
+	border: 2px solid var(--success);
+
+	color: var(--dark);
 }
 
 /* Global Display Utility */
