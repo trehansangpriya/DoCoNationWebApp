@@ -26,7 +26,6 @@ const Layout = ({ children, title, kw, desc }) => {
       <div ref={screen}>
         <div className="space"></div>
         {children}
-        <div className="space"></div>
       </div>
       <Footer />
     </main>

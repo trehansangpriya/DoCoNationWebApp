@@ -15,6 +15,7 @@ import DetailRC from '../components/Utilities/DetailRC';
 import dataRC from '../data/Home/detailRC.json';
 // General Utility
 import Spacer from '../components/Layout/Spacer';
+import Join from './../components/Utilities/Join';
 
 // Version 1.1
 export default function Home() {
@@ -61,7 +62,7 @@ export default function Home() {
       <Spacer h='50px' />
 
       {/* Membership Section Starts */}
-      <Membership id='join' data={membershipData} />
+      <Join id='join' />
       {/* Membership Section Ends */}
 
       <Spacer h='50px' />

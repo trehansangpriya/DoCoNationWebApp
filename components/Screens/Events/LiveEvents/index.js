@@ -7,24 +7,22 @@ const EventCards = ({ title, data }) => {
         <div className='section'>
             <h2>{title}</h2>
             <div className={styles.events}>
-                {data.map(({
-                    date,
-                    time,
-                    title,
-                    status,
-                    image,
-                    link,
-                    id
-                }) => {
-                    const eventDate = new Date(date).toDateString()
+                {data.map(({ id, details }) => {
+                    const eventDate = details.datetime.toDate()
                     return (
                         <Event
-                            active={status}
-                            title={title}
-                            date={eventDate}
-                            img={image}
-                            time={time}
-                            link={link}
+                            active={(details.status === 'Live')}
+                            title={details.title}
+                            date={eventDate.toDateString()}
+                            time={
+                                (eventDate.getHours() > 12 ?
+                                    `${eventDate.getHours() - 12}:${eventDate.getMinutes()} PM (IST)` :
+                                    `${eventDate.getHours()}:${eventDate.getMinutes()} AM (IST)`)
+                            }
+                            img={details.image}
+                            link={details.eventLink}
+                            subtitle={details.subtitle}
+                            tags={details.tags}
                             key={id}
                         />
                     )

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 // Hero Section
 import HeroSection from '../components/Utilities/HeroSection';
 import heroSectionData from '../data/Events/heroSection.json'
@@ -12,11 +12,37 @@ import dataRC from '../data/Events/detailRC.json';
 import Spacer from '../components/Layout/Spacer';
 import EventCards from '../components/Screens/Events/LiveEvents';
 import YtVids from './../components/Screens/Events/YtVids/index';
-// Membership Section
-import Membership from '../components/Screens/Home/Membership';
-import membershipData from '../data/Home/membershipData.json';
+// Firebase
+import { db } from '../config/firebaseConfig'
+import Join from '../components/Utilities/Join';
 
-const events = ({ liveEvents, ytVids }) => {
+const events = () => {
+    const [upcomingEvents, setUpcomingEvents] = useState([])
+    const [ytVids, setYtVids] = useState([])
+    useEffect(() => {
+        db.collection('events').orderBy('datetime', 'asc').limit(5).onSnapshot(
+            snapshot => {
+                setUpcomingEvents(snapshot.docs.map(
+                    doc => {
+                        if (doc.data().status === 'Published' || doc.data().status === 'Live') {
+                            return {
+                                id: doc.id,
+                                details: doc.data()
+                            }
+                        }
+                        return null
+                    }
+                ))
+            }
+        )
+        db.collection('ytVids').orderBy('published', 'desc').limit(5).onSnapshot(
+            snapshot => {
+                setYtVids(snapshot.docs.map(
+                    doc => ({ id: doc.id, details: doc.data() })
+                ))
+            }
+        )
+    }, [])
     return (
         <div>
             {/* Hero Section Starts */}
@@ -28,34 +54,36 @@ const events = ({ liveEvents, ytVids }) => {
                 link={heroSectionData.link} />
             {/* Hero Section Ends */}
 
-            <Spacer h='20px' />
+            <Spacer h='20px' id='explore' />
             {/* Upcoming Live Events Start */}
-            {liveEvents.length === 0 ? (
-                <div></div>
-            ) : (
-                <EventCards
-                    title='Live Events'
-                    data={liveEvents}
-                />
-            )}
+            {
+                upcomingEvents[0] === null ? (
+                    <div></div>
+                ) : (
+                    <EventCards
+                        title='Upcoming Events'
+                        data={upcomingEvents}
+                    />
+                )
+            }
             {/* Upcoming Live Events End */}
 
-            <Spacer h='20px' />
+            <Spacer h='10px' />
 
             {/* Yt Recorded Events Start */}
             {
-                ytVids[0] === null ? (
+                ytVids.length === 0 ? (
                     <div></div>
                 ) : (
                     <YtVids
-                        title='Recorded Events'
+                        title='Previous Events'
                         data={ytVids}
                     />
                 )
             }
             {/* Yt Recorded Events End */}
 
-            <Spacer h='80px' />
+            <Spacer h='50px' />
 
             {/* Domains Starts */}
             <FeatureCards
@@ -64,28 +92,11 @@ const events = ({ liveEvents, ytVids }) => {
             />
             {/* Domains Ends */}
 
-            <Spacer h='80px' />
+            <Spacer h='20px' />
 
             {/* Membership Section Starts */}
-            <Membership id='join' data={membershipData} />
+            <Join id='join' />
             {/* Membership Section Ends */}
-
-            {/* DetailRC Starts */}
-            {/* 
-                <div className="bg-blue200">
-                    <DetailRC
-                        generalTitle={dataRC[0].title.general}
-                        coloredTitle={dataRC[0].title.highlight}
-                        content={dataRC[0].content}
-                        img={dataRC[0].img}
-                        rev={dataRC[0].rev}
-                        alt={dataRC[0].alt}
-                    />
-                </div>
-                */}
-            {/* DetailRC Ends */}
-
-            {/*<Spacer h='100px' />*/}
         </div>
     )
 
@@ -93,15 +104,15 @@ const events = ({ liveEvents, ytVids }) => {
 
 export default events
 
-export async function getServerSideProps() {
-    const liveEventData = await fetch(`https://doconotion.herokuapp.com/live-events?auth=${process.env.API_AUTH}`)
-    const liveEvents = await liveEventData.json()
-    const ytVidsData = await fetch(`https://doconotion.herokuapp.com/youtube-vids?auth=${process.env.API_AUTH}`)
-    const ytVids = await ytVidsData.json()
-    return {
-        props: {
-            liveEvents,
-            ytVids
-        },
-    }
-}
+// export async function getServerSideProps() {
+//     const liveEventData = await fetch(`https://doconotion.herokuapp.com/live-events?auth=${process.env.API_AUTH}`)
+//     const liveEvents = await liveEventData.json()
+//     const ytVidsData = await fetch(`https://doconotion.herokuapp.com/youtube-vids?auth=${process.env.API_AUTH}`)
+//     const ytVids = await ytVidsData.json()
+//     return {
+//         props: {
+//             liveEvents,
+//             ytVids
+//         },
+//     }
+// }

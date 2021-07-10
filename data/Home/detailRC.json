@@ -10,9 +10,9 @@
     "alt": "events & podcasts",
     "btns": {
       "primary": {
-        "label": "Join Now",
+        "label": "Explore",
         "type": "btn-primary",
-        "link": "/#join"
+        "link": "/events"
       }
     }
   },

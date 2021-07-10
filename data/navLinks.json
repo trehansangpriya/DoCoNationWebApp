@@ -1,17 +1,7 @@
 [
     {
         "title": "Home",
-        "url": "/#home",
-        "target": ""
-    },
-    {
-        "title": "About",
-        "url": "/#about",
-        "target": ""
-    },
-    {
-        "title": "Benefits",
-        "url": "/#benefits",
+        "url": "/",
         "target": ""
     },
     {
