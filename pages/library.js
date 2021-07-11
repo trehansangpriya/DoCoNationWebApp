@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { db } from './../config/firebaseConfig';
 import styles from '../styles/Screens/Library/library.module.css'
-import YtVid from './../components/Screens/Events/YtVids/YtVid';
 import Link from 'next/link';
 
 const library = () => {
@@ -58,8 +57,6 @@ const library = () => {
                                     <img src={details.image} alt={details.title} />
                                 </div>
                                 <div className={styles.info}>
-                                    <div className={styles.title}>{details.title}</div>
-                                    <div className={styles.subtitle}>{details.subtitle}</div>
                                     <div className={styles.tags}>
                                         {
                                             details.tags.map(tag => (
@@ -67,6 +64,9 @@ const library = () => {
                                             ))
                                         }
                                     </div>
+                                    <div className={styles.title}>{details.title}</div>
+                                    <div className={styles.subtitle}>{details.subtitle}</div>
+
                                 </div>
                                 <div className={styles.btnHolder}>
                                     <a href={details.link} target='_blank' className="btn btn-success">Watch Now</a>

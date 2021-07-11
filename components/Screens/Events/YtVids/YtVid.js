@@ -7,8 +7,6 @@ const YtVid = ({ title, date, img, link, tags, subtitle }) => {
                 <img src={img} alt={title} />
             </div>
             <div className={ytStyle.info}>
-                <div className={ytStyle.title}>{title}</div>
-                <div className={ytStyle.subtitle}>{subtitle}</div>
                 <div className={ytStyle.tags}>
                     {
                         tags.map(tag => (
@@ -16,6 +14,9 @@ const YtVid = ({ title, date, img, link, tags, subtitle }) => {
                         ))
                     }
                 </div>
+                <div className={ytStyle.title}>{title}</div>
+                <div className={ytStyle.subtitle}>{subtitle}</div>
+
             </div>
             <div className={ytStyle.btnHolder}>
                 <a href={link} target='_blank' className="btn btn-success">Watch Now</a>

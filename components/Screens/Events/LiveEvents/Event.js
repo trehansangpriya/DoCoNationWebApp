@@ -8,8 +8,6 @@ const Event = ({ title, date, active, time, img, link, subtitle, tags }) => {
                 <img src={img} alt={title} />
             </div>
             <div className={eventStyle.info}>
-                <div className={eventStyle.title}>{title}</div>
-                <div className={eventStyle.subtitle}>{subtitle}</div>
                 <div className={eventStyle.tags}>
                     {
                         tags.map(tag => (
@@ -17,6 +15,9 @@ const Event = ({ title, date, active, time, img, link, subtitle, tags }) => {
                         ))
                     }
                 </div>
+                <div className={eventStyle.title}>{title}</div>
+                <div className={eventStyle.subtitle}>{subtitle}</div>
+
                 <div className={eventStyle.datetime}>
                     {date}, {time}
                 </div>
