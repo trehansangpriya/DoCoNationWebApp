@@ -7,14 +7,12 @@ import About from '../components/Screens/Startup/About';
 // Why Startup Experience Section
 import Cards from '../components/Screens/Startup/Cards';
 import startupCardData from '../data/Startup/cardData.json'
-// Features Section
-import FeatureCards from './../components/Utilities/FeatureCards/index';
-import domainData from '../data/Startup/features.json'
 // Details
 import DetailRC from '../components/Utilities/DetailRC';
 import dataRC from '../data/Startup/detailRC.json';
 // General Utility
 import Spacer from '../components/Layout/Spacer';
+import Join from '../components/Utilities/Join';
 
 const Startup = () => {
     return (
@@ -34,19 +32,10 @@ const Startup = () => {
             <About id='about' />
             {/* About Section Ends */}
 
-            <Spacer h='100px' />
-
-            {/* Domains Starts */}
-            <FeatureCards
-                title='Multiple Domains To Choose Form!'
-                data={domainData}
-            />
-            {/* Domains Ends */}
-
-            <Spacer h='100px' />
+            {/* <Spacer h='100px' />*/}
 
             {/* DetailRC Starts */}
-            <DetailRC
+            {/*<DetailRC
                 generalTitle={dataRC[0].title.general}
                 coloredTitle={dataRC[0].title.highlight}
                 content={dataRC[0].content}
@@ -55,17 +44,17 @@ const Startup = () => {
                 btnSec={dataRC[0].btns.secondary}
                 rev={dataRC[0].rev}
                 alt={dataRC[0].alt}
-            />
+            />*/}
             {/* DetailRC Ends */}
 
 
-            <Spacer h='100px' />
+            <Spacer h='50px' />
 
             {/* Why Startup Experience Starts */}
             <Cards title='Why try this out?' data={startupCardData} />
             {/* Why Startup Experience Ends */}
 
-            <Spacer h='80px' />
+            <Spacer h='50px' />
             <div
                 className='section d-flex d-col'
                 style={{
@@ -80,10 +69,17 @@ const Startup = () => {
                 >What are you waiting for?</h2>
                 <br />
                 <div className='d-flex' >
-                    <a href="#" className="btn btn-primary">Apply Now</a>
+                    <a
+                        href="https://www.notion.so/doconation/Startup-Experience-55f71ca6adfa4f3fa2e073e26fc9fe46"
+                        className="btn btn-primary"
+                        target='_blank'
+                    >Apply Now</a>
                 </div>
             </div>
             <Spacer h='50px' />
+            {/* Membership Section Starts */}
+            <Join id='join' />
+            {/* Membership Section Ends */}
         </div>)
 
 }

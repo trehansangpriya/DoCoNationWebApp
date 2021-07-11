@@ -3,11 +3,11 @@
         "general": "Be A Part of ",
         "highlight": "The Hustle!"
     },
-    "content": "It is a compact solution for all student problems out there! A place where there’s no room for boredom.",
+    "content": "Know what it takes to build a company & be a part of the hustle!",
     "img": {
         "src": "/assets/images/startup-hero-illus.png",
         "alt": "DoCoNation - Startup Experience"
     },
-    "btnTitle": "Apply Now",
-    "link": "#join"
+    "btnTitle": "Explore",
+    "link": "#about"
 }

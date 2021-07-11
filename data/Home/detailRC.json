@@ -27,8 +27,9 @@
     "alt": "Startup Experience",
     "btns": {
       "primary": {
-        "label": "Coming Soon",
-        "type": "btn-primary"
+        "label": "Explore",
+        "type": "btn-primary",
+        "link": "/startup"
       }
     }
   }

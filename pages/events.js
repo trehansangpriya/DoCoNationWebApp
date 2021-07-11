@@ -5,9 +5,6 @@ import heroSectionData from '../data/Events/heroSection.json'
 // Domain Section
 import FeatureCards from "../components/Utilities/FeatureCards";
 import domainData from '../data/Startup/features.json'
-// Details
-import DetailRC from '../components/Utilities/DetailRC';
-import dataRC from '../data/Events/detailRC.json';
 // General Utility
 import Spacer from '../components/Layout/Spacer';
 import EventCards from '../components/Screens/Events/LiveEvents';
@@ -87,7 +84,7 @@ const events = () => {
 
             {/* Domains Starts */}
             <FeatureCards
-                title='Events in almost every domain!'
+                title='Variety of Domains'
                 data={domainData}
             />
             {/* Domains Ends */}

@@ -4,9 +4,6 @@ import HeroSection from '../components/Utilities/HeroSection';
 import heroSectionData from '../data/Home/heroSection.json'
 // About Section
 import About from '../components/Screens/Home/About';
-// Membership Section
-import Membership from '../components/Screens/Home/Membership';
-import membershipData from '../data/Home/membershipData.json';
 // Features Section
 import FeatureCards from "../components/Utilities/FeatureCards";
 import featureCardData from '../data/Home/features.json'

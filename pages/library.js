@@ -5,12 +5,20 @@ import YtVid from './../components/Screens/Events/YtVids/YtVid';
 import Link from 'next/link';
 
 const library = () => {
-    const tags = ['All', 'Technology', 'Blockchain', 'AR-VR', 'Some Tag', 'Something']
+    const [tags, setTags] = useState([])
+    // const tags = ['All', 'Technology', 'Blockchain', 'AR-VR', 'Some Tag', 'Something']
     const [selectedTag, setSelectedTag] = useState('All')
     console.log(selectedTag);
     const [ytVids, setYtVids] = useState([])
 
     useEffect(() => {
+        db.collection('tags').orderBy('priority', 'asc').onSnapshot(
+            snapshot => {
+                setTags(snapshot.docs.map(
+                    doc => (doc.data().title)
+                ))
+            }
+        )
         db.collection('ytVids').orderBy('published', 'desc').onSnapshot(
             snapshot => {
                 setYtVids(snapshot.docs.map(
