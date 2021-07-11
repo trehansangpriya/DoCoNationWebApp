@@ -32,6 +32,6 @@ export default Meta
 
 Meta.defaultProps = {
     title: "DoCoNation - Student Community",
-    kw: "docogen.com,docogen,dotcomgenerations,dot com generations, website,webdev, app dev, app, web development, DoCoGen",
-    desc: "Kickstart your Career, with DoCoGen's LIVE Classes in all the major skills!"
+    kw: "docogen.com,docogen,doconation, community, skills,dotcomgenerations,dot com generations, website,webdev, app dev, app, web development, DoCoGen",
+    desc: "One-Stop Solution for all student needs! Grow, Learn, and Network with amazing people from around the world."
 }
