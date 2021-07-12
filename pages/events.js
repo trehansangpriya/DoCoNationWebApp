@@ -19,7 +19,7 @@ const events = () => {
     useEffect(() => {
         db.collection('events').orderBy('datetime', 'asc').limit(5).onSnapshot(
             snapshot => {
-                setUpcomingEvents(snapshot.docs.map(
+                const filter = snapshot.docs.filter(
                     doc => {
                         if (doc.data().status === 'Published' || doc.data().status === 'Live') {
                             return {
@@ -29,6 +29,14 @@ const events = () => {
                         }
                         return null
                     }
+                )
+                setUpcomingEvents(filter.map(
+                    doc => (
+                        {
+                            id: doc.id,
+                            details: doc.data()
+                        }
+                    )
                 ))
             }
         )
@@ -40,6 +48,7 @@ const events = () => {
             }
         )
     }, [])
+
     return (
         <div>
             {/* Hero Section Starts */}
@@ -54,7 +63,7 @@ const events = () => {
             <Spacer h='20px' id='explore' />
             {/* Upcoming Live Events Start */}
             {
-                upcomingEvents[0] === null ? (
+                upcomingEvents.length === 0 ? (
                     <div></div>
                 ) : (
                     <EventCards

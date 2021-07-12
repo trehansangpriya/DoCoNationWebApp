@@ -1,6 +1,6 @@
 import React from 'react'
 import ytStyle from '../../../../styles/Screens/Events/YtVids/YtVid.module.css'
-const YtVid = ({ title, date, img, link, tags, subtitle }) => {
+const YtVid = ({ title, img, link, tags, subtitle }) => {
     return (
         <div className={ytStyle.card}>
             <div className={ytStyle.img}>
