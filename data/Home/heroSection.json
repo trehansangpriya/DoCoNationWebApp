@@ -3,10 +3,11 @@
         "general": "A New Age ",
         "highlight": "Student Community"
     },
-    "content": "It is a compact solution for all student problems out there! A place where there’s no room for boredom.",
+    "content": "One-Stop Solution for all student needs! Grow, Learn, and Network with amazing people from around the world.",
     "img": {
         "src": "/assets/images/home-hero-illus.png",
         "alt": "DoCoNation"
     },
-    "link": "#"
+    "btnTitle": "Join Now",
+    "link": "#join"
 }

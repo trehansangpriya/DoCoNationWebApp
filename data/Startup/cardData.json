@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Work Experience",
+        "content": "Hands-On Work Experience along with Proffessionals",
+        "icon": "/assets/icons/startup-card-work.png"
+    },
+    {
+        "title": "Projects",
+        "content": "Apply your knowledge to build Real-World Projects.",
+        "icon": "/assets/icons/startup-card-projects.png"
+    },
+    {
+        "title": "Mentor Support",
+        "content": "Personalized Mentorship from the Startup Team.",
+        "icon": "/assets/icons/startup-card-mentor.png"
+    },
+    {
+        "title": "Explore Careers",
+        "content": "Variety of Domains to choose from & test your skills",
+        "icon": "/assets/icons/startup-card-career.png"
+    },
+    {
+        "title": "Up-Skill Yourself",
+        "content": "Improve your core skills as well as soft skills.",
+        "icon": "/assets/icons/startup-card-skill.png"
+    },
+    {
+        "title": "Profile Upgrade",
+        "content": "Upgrade and diversify your Portfolio/Resume.",
+        "icon": "/assets/icons/startup-card-profile.png"
+    }
+]

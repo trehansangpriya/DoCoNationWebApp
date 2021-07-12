@@ -1,6 +1,6 @@
 .heroSection {
 	width: 100%;
-	height: calc(100vh - 80px);
+	min-height: calc(100vh - 80px);
 	justify-content: flex-start;
 	align-items: center;
 }
@@ -28,7 +28,7 @@
 	height: 400px;
 }
 .heroSection .btnHolder {
-	display: none;
+	display: flex;
 }
 
 /* Screensize - iPad */
@@ -56,7 +56,8 @@
 
 	.heroSection .btnHolder {
 		margin-top: 20px;
-		display: block;
+		width: 100%;
+		justify-content: center;
 	}
 
 	.heroSection .img {

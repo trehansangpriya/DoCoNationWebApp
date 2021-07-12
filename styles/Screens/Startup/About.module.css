@@ -1,0 +1,10 @@
+.btnHolder {
+	display: flex;
+}
+
+@media screen and (max-width: 640px) {
+	.btnHolder {
+		display: block;
+		width: 100%;
+	}
+}

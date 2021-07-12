@@ -1,22 +1,17 @@
 [
     {
         "title": "Home",
-        "url": "/#",
-        "target": ""
-    },
-    {
-        "title": "About",
-        "url": "/#about",
-        "target": ""
-    },
-    {
-        "title": "Benefits",
-        "url": "/#benefits",
+        "url": "/",
         "target": ""
     },
     {
         "title": "Events",
         "url": "/events",
+        "target": ""
+    },
+    {
+        "title": "Startup Experience",
+        "url": "/startup",
         "target": ""
     }
 ]

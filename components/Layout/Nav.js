@@ -8,7 +8,7 @@ const Nav = () => {
     return (
         <nav className={navStyle.nav}>
             <div className={navStyle.logo}>
-                <Link href="/#"><a><img src="https://docogen.com/assets/Dark/DoCoNation-Alt.png" alt="" /></a></Link>
+                <Link href="/#home"><a><img src="https://docogen.com/assets/Dark/DoCoNation-Alt.png" alt="" /></a></Link>
             </div>
             <div className={!navOpen ? navStyle.navLinks : navStyle.navLinks + " " + navStyle.showNav}>
                 {
@@ -23,15 +23,15 @@ const Nav = () => {
                         )
                     )
                 }
-                <a
-                    href="#"
+                {/*  <a
+                    href="#join"
                     className="btn btn-primary"
                     style={{
                         marginLeft: '30px'
                     }}
                 >
                     Join Now
-                </a>
+                </a>*/}
             </div>
 
             <div className={!navOpen ? navStyle.burger : navStyle.burger + " " + navStyle.toggle} onClick={e => (setNavOpen(!navOpen))}>

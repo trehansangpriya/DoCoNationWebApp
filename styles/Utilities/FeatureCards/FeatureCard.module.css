@@ -10,6 +10,10 @@
 	border-radius: 8px;
 	margin: 10px;
 	height: fit-content;
+	transition: all 200ms ease-in-out;
+}
+.feature:hover {
+	transform: scale(1.02);
 }
 
 .feature .title {

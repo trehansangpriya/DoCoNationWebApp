@@ -1,0 +1,18 @@
+[
+    {
+        "rev": true,
+        "img": "/assets/images/startup-detailRC-startupExp.png",
+        "title": {
+            "general": "Startup",
+            "highlight": "Experience"
+        },
+        "content": "Know what it takes to build a company & be a part of the hustle!",
+        "alt": "startup-experience",
+        "btns": {
+            "primary": {
+                "label": "Apply Now",
+                "type": "btn-primary"
+            }
+        }
+    }
+]

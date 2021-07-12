@@ -4,22 +4,19 @@ const Footer = () => {
     return (
         <div className={footerStyles.footer}>
             <ul className={footerStyles.socials}>
-                <a href="https://www.instagram.com/docogen/" target="_blank" className={footerStyles.social}>
+                <a href="https://www.instagram.com/doconation/" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-instagram"></i></li>
                 </a>
-                <a href="https://www.linkedin.com/company/docogen" target="_blank" className={footerStyles.social}>
+                <a href="https://www.linkedin.com/company/doconation" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-linkedin"></i></li>
                 </a>
-                <a href="https://www.facebook.com/DotComGenerations/" target="_blank" className={footerStyles.social}>
+                <a href="https://www.facebook.com/Do-Co-Nation-100333282330475" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-facebook"></i></li>
                 </a>
                 <a href="https://doco.link/youtube" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-youtube"></i></li>
                 </a>
-                <a href="https://in.pinterest.com/dotcomgenerations/" target="_blank" className={footerStyles.social}>
-                    <li><i className="fab fa-pinterest"></i></li>
-                </a>
-                <a href="https://twitter.com/_DoCoGen" target="_blank" className={footerStyles.social}>
+                <a href="https://twitter.com/doconation" target="_blank" className={footerStyles.social}>
                     <li><i className="fab fa-twitter"></i></li>
                 </a>
             </ul>

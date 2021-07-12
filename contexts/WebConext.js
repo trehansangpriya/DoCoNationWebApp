@@ -7,7 +7,6 @@ export function useWebContext() {
 
 export function WebProvider({ children }) {
     const [navOpen, setNavOpen] = useState(false)
-
     const value = {
         navOpen,
         setNavOpen

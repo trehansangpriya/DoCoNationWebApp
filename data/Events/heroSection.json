@@ -1,12 +1,13 @@
 {
     "title": {
-        "general": "Know What's Up at ",
-        "highlight": "DoCoNation"
+        "general": "Learn Something New ",
+        "highlight": "Everyday"
     },
-    "content": "It is a compact solution for all student problems out there! A place where there’s no room for boredom.",
+    "content": "Stay updated with all the upcoming events at DoCoNation. Also checkout our previous events for some amazing content!",
     "img": {
         "src": "/assets/images/events-hero-illus.png",
         "alt": "DoCoNation Events"
     },
-    "link": "#"
+    "link": "#explore",
+    "btnTitle": "Explore"
 }

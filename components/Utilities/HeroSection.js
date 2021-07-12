@@ -1,9 +1,9 @@
 import React from 'react'
 import heroStyles from '../../styles/Utilities/HeroSection.module.css'
 
-const HeroSection = ({ title, content, img, link }) => {
+const HeroSection = ({ title, content, img, link, id, btnTitle }) => {
     return (
-        <div className={heroStyles.heroSection + ' section d-flex'}>
+        <div id={id} className={heroStyles.heroSection + ' section d-flex'}>
             <div className={heroStyles.text}>
                 <h1>
                     {title.general}
@@ -13,7 +13,7 @@ const HeroSection = ({ title, content, img, link }) => {
                 </h1>
                 <p>{content}</p>
                 <div className={heroStyles.btnHolder}>
-                    <a href={link} className="btn btn-primary">Join Now</a>
+                    <a href={link} className="btn btn-primary">{btnTitle}</a>
                 </div>
             </div>
             <div className={heroStyles.img}>

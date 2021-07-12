@@ -1,0 +1,13 @@
+{
+    "title": {
+        "general": "Be A Part of ",
+        "highlight": "The Hustle!"
+    },
+    "content": "Know what it takes to build a company & be a part of the hustle!",
+    "img": {
+        "src": "/assets/images/startup-hero-illus.png",
+        "alt": "DoCoNation - Startup Experience"
+    },
+    "btnTitle": "Explore",
+    "link": "#about"
+}

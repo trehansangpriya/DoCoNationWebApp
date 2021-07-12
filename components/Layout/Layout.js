@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import { useWebContext } from '../../contexts/WebConext';
-import DetailRC from '../Utilities/DetailRC';
 import Footer from './Footer';
 import Meta from './Meta';
 import Nav from './Nav';
@@ -27,7 +26,6 @@ const Layout = ({ children, title, kw, desc }) => {
       <div ref={screen}>
         <div className="space"></div>
         {children}
-        <div className="space"></div>
       </div>
       <Footer />
     </main>

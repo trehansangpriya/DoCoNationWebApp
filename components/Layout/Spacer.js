@@ -6,7 +6,8 @@ const Spacer = ({ h, id }) => {
             id={id}
             style={{
                 height: h,
-                width: '100%'
+                width: '100%',
+                scrollMargin: '50px'
             }}>
         </div>
     )
