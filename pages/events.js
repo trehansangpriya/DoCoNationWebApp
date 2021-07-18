@@ -17,7 +17,7 @@ const events = () => {
     const [upcomingEvents, setUpcomingEvents] = useState([])
     const [ytVids, setYtVids] = useState([])
     useEffect(() => {
-        db.collection('events').orderBy('datetime', 'asc').limit(5).onSnapshot(
+        db.collection('events').orderBy('datetime', 'asc').limit(4).onSnapshot(
             snapshot => {
                 const filter = snapshot.docs.filter(
                     doc => {
@@ -40,7 +40,7 @@ const events = () => {
                 ))
             }
         )
-        db.collection('ytVids').orderBy('published', 'desc').limit(5).onSnapshot(
+        db.collection('ytVids').orderBy('published', 'desc').limit(4).onSnapshot(
             snapshot => {
                 setYtVids(snapshot.docs.map(
                     doc => ({ id: doc.id, details: doc.data() })

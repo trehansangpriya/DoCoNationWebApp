@@ -82,8 +82,6 @@ const library = () => {
                                     <img src={details.image} alt={details.title} />
                                 </div>
                                 <div className={styles.info}>
-                                    <div className={styles.title}>{details.title}</div>
-                                    <div className={styles.subtitle}>{details.subtitle}</div>
                                     <div className={styles.tags}>
                                         {
                                             details.tags.map(tag => (
@@ -91,6 +89,9 @@ const library = () => {
                                             ))
                                         }
                                     </div>
+                                    <div className={styles.title}>{details.title}</div>
+                                    <div className={styles.subtitle}>{details.subtitle}</div>
+
                                 </div>
                                 <div className={styles.btnHolder}>
                                     <a href={details.link} target='_blank' className="btn btn-success">Watch Now</a>
