@@ -1,0 +1,13 @@
+{
+    "title": {
+        "general": "Something about ",
+        "highlight": "Team."
+    },
+    "content": "One-Stop Solution for all student needs! Grow, Learn, and Network with amazing people from around the world.",
+    "img": {
+        "src": "/assets/images/home-hero-illus.png",
+        "alt": "DoCoNation"
+    },
+    "btnTitle": "Explore",
+    "link": "#team"
+}

@@ -5,6 +5,11 @@
         "target": ""
     },
     {
+        "title": "Team",
+        "url": "/team",
+        "target": ""
+    },
+    {
         "title": "Events",
         "url": "/events",
         "target": ""

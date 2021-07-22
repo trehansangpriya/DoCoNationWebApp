@@ -1,0 +1,13 @@
+.icon {
+	background-color: var(--blue-600);
+	width: 52px;
+	height: 52px;
+	color: var(--light);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clip-path: circle(50%);
+	font-size: 32px;
+	cursor: pointer;
+	margin-bottom: 8px;
+}
