@@ -38,10 +38,30 @@ const team = () => {
 
             <Spacer h='50px' />
             <Department
+                title='Management'
+                data={teamData}
+            />
+
+            <Department
                 title='Marketing'
                 data={teamData}
             />
-            <Spacer h='50px' />
+
+            <Department
+                title='Design'
+                data={teamData}
+            />
+
+            <Department
+                title='Content'
+                data={teamData}
+            />
+
+            <Department
+                title='Operations'
+                data={teamData}
+            />
+
 
             {/* Membership Section Starts */}
             <Join id='join' />
