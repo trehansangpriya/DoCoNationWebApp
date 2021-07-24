@@ -6,7 +6,7 @@ const Department = ({ title, data }) => {
     const departmentMembers = data.filter(d => d.department === title)
     console.log(departmentMembers);
     return departmentMembers.length != 0 ? (
-        <div className='section'>
+        <div>
             <h2 style={{ textAlign: "center" }}>{title}</h2>
             <Spacer h='16px' />
             <div className={style.cardRow}>
@@ -25,6 +25,7 @@ const Department = ({ title, data }) => {
                     />
                 ))}
             </div>
+            <Spacer h='50px' />
         </div>
     ) : ('')
 }

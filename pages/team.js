@@ -14,7 +14,6 @@ const team = () => {
             setTeamData(data.docs.map(doc => doc.data()));
         });
     }, []);
-    console.log(teamData);
     return (
         <div>
             {/* Hero Section Starts */}
@@ -26,42 +25,36 @@ const team = () => {
                 btnTitle={heroSectionData.btnTitle}
                 link={heroSectionData.link} />
             {/* Hero Section Ends */}
-
             <Spacer h='50px' id='team' />
-
-            <h2 style={{ textAlign: " center " }}>
-                Meet The Pioneers
-            </h2>
-            <p style={{ textAlign: " center " }}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium ipsam ipsa
-            </p>
-
-            <Spacer h='50px' />
-            <Department
-                title='Management'
-                data={teamData}
-            />
-
-            <Department
-                title='Marketing'
-                data={teamData}
-            />
-
-            <Department
-                title='Design'
-                data={teamData}
-            />
-
-            <Department
-                title='Content'
-                data={teamData}
-            />
-
-            <Department
-                title='Operations'
-                data={teamData}
-            />
-
+            <div className="section">
+                <h2 style={{ textAlign: " center " }}>
+                    Meet The Pioneers
+                </h2>
+                <p style={{ textAlign: " center " }}>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium ipsam ipsa
+                </p>
+                <Spacer h='50px' />
+                <Department
+                    title='Management'
+                    data={teamData}
+                />
+                <Department
+                    title='Marketing'
+                    data={teamData}
+                />
+                <Department
+                    title='Design'
+                    data={teamData}
+                />
+                <Department
+                    title='Content'
+                    data={teamData}
+                />
+                <Department
+                    title='Operations'
+                    data={teamData}
+                />
+            </div>
 
             {/* Membership Section Starts */}
             <Join id='join' />

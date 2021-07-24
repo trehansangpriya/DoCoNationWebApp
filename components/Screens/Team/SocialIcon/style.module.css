@@ -2,12 +2,19 @@
 	background-color: var(--blue-600);
 	width: 52px;
 	height: 52px;
+	border-radius: 50%;
 	color: var(--light);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	clip-path: circle(50%);
-	font-size: 32px;
+	font-size: 28px;
 	cursor: pointer;
 	margin-bottom: 8px;
+}
+@media screen and (max-width: 768px) {
+	.icon {
+		width: 42px;
+		height: 42px;
+		font-size: 22px;
+	}
 }
