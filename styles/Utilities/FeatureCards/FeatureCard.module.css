@@ -27,7 +27,7 @@
 }
 
 .feature .title span {
-	width: 80%;
+	width: 90%;
 }
 
 .feature .icon {
@@ -37,11 +37,11 @@
 }
 
 .feature .icon img {
-	width: 64px;
+	width: 58px;
 }
 
 /* Tablet CSS */
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1270px) {
 	.feature {
 		width: 45%;
 		padding: 20px 40px;
@@ -59,7 +59,7 @@
 }
 
 /* Mobile CSS */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 760px) {
 	.feature {
 		width: 100%;
 		padding: 20px 30px;

@@ -58,12 +58,6 @@ export default function Home() {
 
       <Spacer h='50px' />
 
-      {/* Membership Section Starts */}
-      <Join id='join' />
-      {/* Membership Section Ends */}
-
-      <Spacer h='50px' />
-
       {/* Startup Experience */}
       <DetailRC
         generalTitle={dataRC[1].title.general}
@@ -78,6 +72,23 @@ export default function Home() {
 
       <Spacer h='50px' />
 
+      {/* Clubs */}
+      <DetailRC
+        generalTitle={dataRC[2].title.general}
+        coloredTitle={dataRC[2].title.highlight}
+        content={dataRC[2].content}
+        img={dataRC[2].img}
+        btnPri={dataRC[2].btns.primary}
+        rev={dataRC[2].rev}
+        alt={dataRC[2].alt}
+      />
+      {/* Clubs */}
+
+      <Spacer h='50px' />
+
+      {/* Membership Section Starts */}
+      <Join id='join' />
+      {/* Membership Section Ends */}
     </div>
   )
 }

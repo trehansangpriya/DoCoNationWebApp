@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Upgrade Your Skillset",
+        "icon": "/assets/icons/club-feature-skill.png"
+    },
+    {
+        "title": "Work With your Peers",
+        "icon": "/assets/icons/club-feature-peers.png"
+    },
+    {
+        "title": "Develop Your Portfolio",
+        "icon": "/assets/icons/club-feature-portfolio.png"
+    },
+    {
+        "title": "Stay Consistent",
+        "icon": "/assets/icons/club-feature-motivation.png"
+    },
+    {
+        "title": "Get Unlimited Support",
+        "icon": "/assets/icons/club-feature-support.png"
+    },
+    {
+        "title": "Learning Resources",
+        "icon": "/assets/icons/club-feature-learn.png"
+    }
+]

@@ -10,8 +10,18 @@
         "target": ""
     },
     {
+        "title": "Clubs",
+        "url": "/clubs",
+        "target": ""
+    },
+    {
         "title": "Startup Experience",
         "url": "/startup",
+        "target": ""
+    },
+    {
+        "title": "Team",
+        "url": "/team",
         "target": ""
     }
 ]

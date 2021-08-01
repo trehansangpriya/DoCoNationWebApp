@@ -1,5 +1,5 @@
 .icon {
-	background-color: var(--blue-600);
+	background-color: var(--blue-400);
 	width: 52px;
 	height: 52px;
 	border-radius: 50%;
@@ -10,6 +10,10 @@
 	font-size: 28px;
 	cursor: pointer;
 	margin-bottom: 8px;
+	transition: all 200ms ease-in-out;
+}
+.icon:hover {
+	background-color: var(--blue);
 }
 @media screen and (max-width: 768px) {
 	.icon {

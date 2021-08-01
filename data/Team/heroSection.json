@@ -1,12 +1,12 @@
 {
     "title": {
-        "general": "Something about ",
+        "general": "Let's Meet The ",
         "highlight": "Team."
     },
-    "content": "One-Stop Solution for all student needs! Grow, Learn, and Network with amazing people from around the world.",
+    "content": "Meet the folks behind the scenes at DoCoNation who are dedicated to deliver the best possible community experience.",
     "img": {
-        "src": "/assets/images/home-hero-illus.png",
-        "alt": "DoCoNation"
+        "src": "/assets/images/team-hero-illus.png",
+        "alt": "DoCoNation Team"
     },
     "btnTitle": "Explore",
     "link": "#team"
