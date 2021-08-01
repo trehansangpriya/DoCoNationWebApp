@@ -1,0 +1,13 @@
+{
+    "title": {
+        "general": "Introducing DoCoNation ",
+        "highlight": "Clubs."
+    },
+    "content": "A new way of skilling up along with your peers by maintaining consistency, mentor supervision, and targeted Events, Workshops & Projects.",
+    "img": {
+        "src": "/assets/images/club-hero-illus.png",
+        "alt": "DoCoNation"
+    },
+    "btnTitle": "Explore",
+    "link": "#clubs"
+}

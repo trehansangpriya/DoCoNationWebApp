@@ -1,0 +1,73 @@
+.card {
+	margin: 8px;
+	padding: 16px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 12px;
+	background-color: var(--blue-600);
+	color: var(--light);
+	width: 320px;
+	transition: all 0.2s ease-in-out;
+}
+.card:hover {
+	box-shadow: 0 0 15px rgba(22, 22, 22, 0.4);
+}
+.card .info {
+	display: flex;
+	align-items: center;
+}
+.card .info .emoji img {
+	width: 80px;
+}
+.card .info .details {
+	margin-left: 12px;
+}
+.card .info .details .name {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+.card .btnRow {
+	margin-top: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card .btnRow .btn {
+	margin: 10px 4px;
+	width: 100%;
+	padding: 8px 18px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 100ms;
+}
+.card .btnRow .btn:hover {
+	transform: scale(1.02);
+}
+.card .btnRow .btn.btnSecondary {
+	background-color: transparent;
+	color: var(--blue);
+	font-weight: 700;
+	border: 2px solid var(--blue);
+}
+
+.card .btnRow .btn.btnPrimary {
+	background-color: var(--blue);
+	border: 2px solid var(--blue);
+	color: var(--light);
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+	.card .btnRow .btn {
+		width: 100%;
+		padding: 8px 8px;
+	}
+}

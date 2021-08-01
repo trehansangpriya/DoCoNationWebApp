@@ -27,12 +27,11 @@ const team = () => {
             {/* Hero Section Ends */}
             <Spacer h='50px' id='team' />
             <div className="section">
-                <h2 style={{ textAlign: " center " }}>
-                    Meet The Pioneers
-                </h2>
-                <p style={{ textAlign: " center " }}>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium ipsam ipsa
-                </p>
+                <div className='pioneers' >
+                    <p>The Pioneers</p>
+                    <img src="/assets/icons/pioneers.png" alt="Pioneers" />
+                </div>
+
                 <Spacer h='50px' />
                 <Department
                     title='Management'

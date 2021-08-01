@@ -179,6 +179,24 @@ h2 {
 	font-weight: 700;
 }
 
+.pioneers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	margin: 4px 0;
+	font-size: 52px;
+	font-weight: 700;
+}
+.pioneers p {
+	font-size: 52px;
+	font-weight: 700;
+}
+
+.pioneers img {
+	width: 100px;
+}
+
 /* Global Content */
 p {
 	margin: 4px 0;

@@ -4,10 +4,10 @@
     "img": "/assets/images/home-detailRC-events.png",
     "title": {
       "general": "Live Events",
-      "highlight": "& Podcasts"
+      "highlight": "& Tutorials"
     },
     "content": "Learn something new almost everyday!",
-    "alt": "events & podcasts",
+    "alt": "events & tutorials",
     "btns": {
       "primary": {
         "label": "Explore",
@@ -18,6 +18,23 @@
   },
   {
     "rev": true,
+    "img": "/assets/images/home-detailRC-clubs.png",
+    "title": {
+      "general": "DoCoNation",
+      "highlight": "Clubs"
+    },
+    "content": "Resources, support and knowledge on a micro-level to each student, in various domains.",
+    "alt": "doconation clubs",
+    "btns": {
+      "primary": {
+        "label": "Explore",
+        "type": "btn-primary",
+        "link": "/clubs"
+      }
+    }
+  },
+  {
+    "rev": false,
     "img": "/assets/images/home-detailRC-startup.png",
     "title": {
       "general": "Startup ",
